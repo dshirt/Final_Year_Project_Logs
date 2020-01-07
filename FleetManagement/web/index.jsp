@@ -7,13 +7,12 @@
       <div class="loginbox">
       <img src="Images/avatar.jpg" class="avatar">
         <h1>Login Here</h1>
-        <form>
-          <p>Username</p>
-          <input type="text" name="" placeholder="Enter Username">
-          <p>Password</p>
-          <input type="password" name="" placeholder="Enter password">
+        <form method="put" action="checkLoginDetails.jsp">
+          <label for="userName">Username</label>
+          <input type="text" name="userName" placeholder="Enter Username">
+          <label for="userPassword">Password</label>
+          <input type="password" name="userPassword" placeholder="Enter password">
           <input type="submit" name="" value="Login">
-
         </form>
 
       </div>
