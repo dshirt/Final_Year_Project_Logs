@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FleetManagementLogin.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/unsuccessfulLogin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/fleetmanagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/fleetmanagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +146,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -179,11 +167,24 @@
       <workItem from="1577630249333" duration="669000" />
       <workItem from="1577972908715" duration="1887000" />
       <workItem from="1578390444072" duration="2429000" />
+      <workItem from="1578395076223" duration="254000" />
     </task>
+    <task id="LOCAL-00001" summary="This is my First attempt to commit from intellij">
+      <created>1578395314427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578395314427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is my First attempt to commit from intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is my First attempt to commit from intellij" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2456" y="114" key="#FleetManagement" timestamp="1577630296724">
@@ -198,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
     <state x="414" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1578395128118" />
-    <state x="438" y="102" key="CommitChangelistDialog2" timestamp="1578395289944">
+    <state x="438" y="102" key="CommitChangelistDialog2" timestamp="1578395313864">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state x="438" y="102" key="CommitChangelistDialog2/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1578395289944" />
+    <state x="438" y="102" key="CommitChangelistDialog2/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1578395313864" />
     <state x="709" y="247" key="FileChooserDialogImpl" timestamp="1577975911828">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
