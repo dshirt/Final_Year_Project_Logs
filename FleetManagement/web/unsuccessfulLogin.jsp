@@ -8,7 +8,7 @@
             <img src="Images/avatar.jpg" class="avatar">
                 <h2>Username or Password Details are Incorrect</h2>
                 <form>
-                    <input type="submit" name="" value="Back to Login">
+                    <input type="button" onclick="location.href='http://localhost:8080/FleetManagement_war_exploded/index.jsp';" value="Back to Login">
                 </form>
             </div>
         </body>
