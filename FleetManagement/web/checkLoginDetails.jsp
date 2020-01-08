@@ -4,7 +4,7 @@
     <title>Check Log in details</title>
         <link href="fleetmanagement.css" rel="stylesheet" type="text/css">
     <body>
-    <%@ page import = "java.sql.*,java.util.*" %>
+    <%@ page import = "java.sql.*" %>
     <%
         String user = request.getParameter("userName");
         String userPassword = request.getParameter("userPassword");
