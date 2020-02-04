@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/fleetmanagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/FleetManagement_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/checkLoginDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/checkLoginDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fleetManager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fleetManager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/fleetmanagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TextSimplifier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodejsStuff" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -167,11 +159,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -195,6 +182,7 @@
       <workItem from="1578390444072" duration="2429000" />
       <workItem from="1578395076223" duration="4673000" />
       <workItem from="1578475291939" duration="6270000" />
+      <workItem from="1580809577022" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="This is my First attempt to commit from intellij">
       <created>1578395314427</created>
@@ -253,10 +241,10 @@
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
     <state x="438" y="102" key="CommitChangelistDialog2/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1578478044498" />
-    <state x="709" y="247" key="FileChooserDialogImpl" timestamp="1577975911828">
+    <state x="709" y="247" key="FileChooserDialogImpl" timestamp="1580809619111">
       <screen x="0" y="0" width="1920" height="1018" />
     </state>
-    <state x="709" y="247" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1577975911828" />
+    <state x="709" y="247" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1580809619111" />
     <state x="2540" y="245" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1577630288243" />
     <state width="1292" height="267" key="GridCell.Tab.0.bottom" timestamp="1578495645561">
       <screen x="0" y="0" width="1920" height="1018" />
