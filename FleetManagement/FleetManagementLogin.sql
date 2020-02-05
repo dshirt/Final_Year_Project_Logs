@@ -1,4 +1,4 @@
-#create DATABASE IF NOT EXISTS fleetLogin;
+create DATABASE IF NOT EXISTS fleetLogin;
 USE fleetLogin
 ;
 

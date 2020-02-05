@@ -22,7 +22,7 @@ module.exports = function(app, passport){
         res.redirect('/');
         });
     app.get('/signup', function(req, res){
-        res.render('singup.ejs', {message: req.flash('signupMessage')});
+        res.render('signup.ejs', {message: req.flash('signupMessage')});
     });
 
     app.post('/signup', passport.authenticate('local-signup', {
