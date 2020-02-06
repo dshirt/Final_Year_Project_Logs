@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta contentType="text/html;charset=UTF-8">
+<style>
+ body{
+  margin: 0;
+  padding: 0;
+  background-image: url("Assets/images/fleetmangenment.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover ;
+ }
+</style>
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Login Register</title>
- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
- <link rel="stylesheet" 
- href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
- <style>
-  html{
-   padding:50px;
-  }
- </style>
-</head>
+
+ <title>Fleet Management Login</title>
+
 <body>
- <div class="container">
-  <div class="jumbotron text-center">
-   <a href="/login" class="btn btn-lg btn-success">Login</a>
-   <a href="/signup" class="btn btn-lg btn-info">Register</a>
-  </div>
- </div>
+
+    background-attachment: fixed;
+    background-size: cover ;">
+
+ <h1>Login Here</h1>
+ <form method="put" action="checkLoginDetails.jsp">
+  <label for="userName">Username</label>
+  <input type="text" name="userName" placeholder="Enter Username">
+  <label for="userPassword">Password</label>
+  <input type="password" name="userPassword" placeholder="Enter password">
+  <input type="submit" name="" value="Login">
+ </form>
+
+</div>
 </body>
-</html>
+</head>

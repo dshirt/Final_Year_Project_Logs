@@ -29,6 +29,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 
+app.use('/Assets', express.static('Assets'));
 require('./app/routes.js')(app, passport);
 
 app.listen(port);

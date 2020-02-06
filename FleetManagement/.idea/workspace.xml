@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="" />
+    <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NodejsStuff/Assets/fleetmanagement.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodejsStuff/Assets/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodejsStuff/Assets/images/fleetmangenment.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodejsStuff/Assets/images/roads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NodejsStuff/views/oldIndex.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodejsStuff/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NodejsStuff/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/views/index.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,8 +69,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodejsStuff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -183,6 +198,7 @@
       <workItem from="1578395076223" duration="4673000" />
       <workItem from="1578475291939" duration="6270000" />
       <workItem from="1580809577022" duration="45000" />
+      <workItem from="1580981174441" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="This is my First attempt to commit from intellij">
       <created>1578395314427</created>
