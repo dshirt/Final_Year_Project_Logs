@@ -1,0 +1,36 @@
+mongo "mongodb+srv://fleetmanager-xixqp.mongodb.net/test"  --username Admin
+
+Admin password: Dshirt49300770
+
+Mongodb Atlas, cloud based datadase.
+
+show dbs : shows all dbs that are not empty
+show collections : Shows all the collections within a db
+insertOne()
+insertMany()
+use <database name>: creates a databse if not already created
+db.users.insertOne({name:'John', age: 49}) : This creates the users collection and inserts the object into it
+					John is in '' as it is a string 
+					{} creates the object similar to a json object, as a key pair
+					name is the key and John is the value.
+
+db.users.insertMany([{name:'Paddy', age: 12}, {name: 'Eilidh', age: 10}]) : for insert many the obects to be inserted 
+										must be inside {} inside [] as we are inserting
+										an array of objects
+
+db.users.find() : finds all the objects within the collection
+
+db.users.find({age: {$gt: 25}}) : return all objects whose age is greater than 25
+
+db.users.insertOne({ name: "", age: ,address : { street:"", city:""}})  : this inserts the address details as a new document within the user document
+
+db.user.find({"address.street": 'First Street'}) : this searches the embeded document address for the street named first street and returns all entries
+
+db.users.update({name: 'Paddy'}, {$set : {age : 20}}) : This will set Paddys age to 20 and keep all other info on Paddy unchanged
+							If the $ sign is not used age: 20 will be written to Paddy's id and overwrite all info on Paddy
+
+db.users.deleteOne({name: 'Paddy'})
+ 
+
+
+Look into Mongo Compass
