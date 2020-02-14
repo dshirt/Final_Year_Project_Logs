@@ -34,3 +34,18 @@ db.users.deleteOne({name: 'Paddy'})
 
 
 Look into Mongo Compass
+
+mongodb+srv://Admin:<Dshirt49300770>@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority
+
+research
+
+https://www.dotnetcurry.com/nodejs/1144/nodejs-html-static-pages-website
+
+https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url
+
+https://www.lifewire.com/file-extensions-and-mime-types-3469109
+
+https://www.youtube.com/watch?v=QE8lgVErCCI
+https://www.youtube.com/watch?v=7Uekm0IgzQ4
+
+https://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs

@@ -21,9 +21,30 @@ module.exports = function(app, passport){
 
         res.redirect('/');
         });
+
+    app.get('/loginfail', function(req, res){
+        res.render('loginfail.ejs', {message:req.flash('loginMessage')});
+    });
+
+
     app.get('/signup', function(req, res){
         res.render('signup.ejs', {message: req.flash('signupMessage')});
     });
+
+    app.post('/loginfail', passport.authenticate('local-login', {
+            successRedirect: '/profile',
+            failureRedirect: '/index',
+            failureFlash: true
+        }),
+        function(req, res){
+            if(req.body.remember){
+                req.session.cookie.maxAge = 1000 * 60 * 3;
+            }else{
+                req.session.cookie.expires = false;
+            }
+
+            res.redirect('/');
+        });
 
     app.post('/signup', passport.authenticate('local-signup', {
         successRedirect: '/profile',
