@@ -7,31 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77be1411-ea7f-4fbe-ae1c-9b3a2d459c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MoreNodeandMongoLearning/.idea/MoreNodeandMongoLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/.idea/MoreNodejs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/fleetmanagement.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/images/fleetmanagement.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/images/roads.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreNodejs/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodejsStuff/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NodejsStuff/NodejsStuff/views/loginfail.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoreNodejs/app/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoreNodejs/config/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoreNodejs/config/passport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoreNodejs/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MoreNodejs/signup.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MongodbAtlasNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongodbAtlasNotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/Assets/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/Assets/fleetmanagement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/Assets/images/fleetmangenment.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/NodejsStuff/app/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/NodejsStuff/app/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/NodejsStuff/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/NodejsStuff/views/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NodejsStuff/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../NodejsStuff/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MoreNodejs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../MoreNodejs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MoreNodejs/fleetmanagement.css" beforeDir="false" afterPath="$PROJECT_DIR$/../MoreNodejs/fleetmanagement.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MoreNodejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../MoreNodejs/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,6 +205,8 @@
       <workItem from="1581542139455" duration="654000" />
       <workItem from="1581584972770" duration="610000" />
       <workItem from="1581623772319" duration="1299000" />
+      <workItem from="1581765623786" duration="2250000" />
+      <workItem from="1581855348336" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="This is my First attempt to commit from intellij">
       <created>1578395314427</created>

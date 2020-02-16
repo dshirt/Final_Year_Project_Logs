@@ -80,6 +80,18 @@ h2{
     border-radius: 20px;
 }
 
+.loginbox button{
+    border: none;
+    margin: 5px;
+    outline: none;
+    height: 40px;
+    background: aqua;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width:70%;
+}
+
 .loginbox input[type="button"]{
     border: none;
     outline: none;

@@ -28,7 +28,7 @@ app.listen(3000, () => {
 
         database.collection('users', function (err, collection) {
 
-            collection.find({name: 'John'}).toArray((err, items) => {
+            collection.find({email: 'john.lawless70@hotmail.com'}).toArray((err, items) => {
                 if (err) throw err;
                 console.log(items);
             });
@@ -58,8 +58,14 @@ app.listen(3000, () => {
         console.log("Requested URL is: " + request.url);
         if (request.url === "/") {
             sendFileContent(response, "index.ejs", "text/html");
+        }else if(request.url === "/login") {
+            sendFileContent(response, "login.ejs", "text/html");
+        }else if(request.url === "/signup"){
+                sendFileContent(response, "signup.ejs", "text/html");
         } else if (/^\/[a-zA-Z0-9\/]*.js$/.test(request.url.toString())) {
             sendFileContent(response, request.url.toString().substring(1), "text/javascript");
+        } else if (/^\/[a-zA-Z0-9\/]*.ejs$/.test(request.url.toString())) {
+            sendFileContent(response, request.url.toString().substring(1), "text/html");
         } else if (request.url === "/fleetmanagement.css") {
             sendFileContent(response, request.url.toString().substring(1), "text/css");
         } else if (/^\/[a-zA-Z0-9\/]*.jpeg$/.test(request.url.toString())) {
