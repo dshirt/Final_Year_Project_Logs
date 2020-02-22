@@ -1,0 +1,3 @@
+req.body.username    username is the name="username" in the form of the html page
+
+index.hbs the home page

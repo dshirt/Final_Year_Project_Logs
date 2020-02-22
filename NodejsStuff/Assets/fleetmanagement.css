@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("images/fleetmangenment.jpeg");
+    background-image: url("images/fleetmanagement.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover ;
@@ -44,8 +44,9 @@ h2{
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    border-radius: 40px;
     padding: 70px 30px ;
-    opacity: 0.3%;
+
 }
 
 .loginbox label{

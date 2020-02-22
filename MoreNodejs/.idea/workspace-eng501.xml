@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a79a5825-1bef-4d1d-88e9-2265e3d5d859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/.idea/mongodbLearning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongodbLearning/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MongodbAtlasNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MongodbAtlasNotes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/signup.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ile</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\MoreNodejs\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-46" />
+    <option name="y" value="3" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="1Xlbu99ODbuHApH7naqYeUxTwm5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../writingtoMongo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\g00351835\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\MoreNodejs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\MoreNodejs" />
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\MoreNodejs\app" />
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\MoreNodejs\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="signup" type="JavascriptDebugType" uri="http://localhost:8000/signup">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a79a5825-1bef-4d1d-88e9-2265e3d5d859" name="Default Changelist" comment="" />
+      <created>1581587162865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581587162865</updated>
+      <workItem from="1581587168182" duration="2848000" />
+      <workItem from="1581592115676" duration="656000" />
+      <workItem from="1581592791891" duration="1290000" />
+      <workItem from="1581623848438" duration="4237000" />
+      <workItem from="1581633778981" duration="5592000" />
+      <workItem from="1581765506232" duration="14238000" />
+      <workItem from="1581855356851" duration="1304000" />
+      <workItem from="1581876193635" duration="1833000" />
+      <workItem from="1581889743680" duration="2833000" />
+    </task>
+    <task id="LOCAL-00001" summary="Home page running on nodejs with stylesheet working. Also connected to mongodbAtlas.">
+      <created>1581639183069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581639183069</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Landing page, login and register pages designed.">
+      <created>1581855408765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581855408765</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Home page running on nodejs with stylesheet working. Also connected to mongodbAtlas." />
+    <MESSAGE value="Landing page, login and register pages designed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing page, login and register pages designed." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="166" key="#Template_Data_Languages" timestamp="1581811636931">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="552" y="166" key="#Template_Data_Languages/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581811636931" />
+    <state x="2214" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581856666362">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2214" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856666362" />
+    <state x="2322" y="101" key="CommitChangelistDialog2" timestamp="1581855408116">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="459" y="102" key="CommitChangelistDialog2/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581639179725" />
+    <state x="2322" y="101" key="CommitChangelistDialog2/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581855408116" />
+    <state x="709" y="246" key="FileChooserDialogImpl" timestamp="1581876202907">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="709" y="246" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581876202907" />
+    <state x="2540" y="244" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856623438" />
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom" timestamp="1581856745658">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581813202521" />
+    <state width="1636" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856745658" />
+    <state width="1636" height="330" key="GridCell.Tab.0.center" timestamp="1581856745658">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.center/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581813202521" />
+    <state width="1636" height="330" key="GridCell.Tab.0.center/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856745658" />
+    <state width="1636" height="330" key="GridCell.Tab.0.left" timestamp="1581856745657">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.left/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581813202521" />
+    <state width="1636" height="330" key="GridCell.Tab.0.left/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856745657" />
+    <state width="1636" height="330" key="GridCell.Tab.0.right" timestamp="1581856745658">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.right/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581813202521" />
+    <state width="1636" height="330" key="GridCell.Tab.0.right/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856745658" />
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom" timestamp="1581856778925">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856778925" />
+    <state width="1636" height="330" key="GridCell.Tab.1.center" timestamp="1581856778925">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="330" key="GridCell.Tab.1.center/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856778925" />
+    <state width="1636" height="330" key="GridCell.Tab.1.left" timestamp="1581856778925">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="330" key="GridCell.Tab.1.left/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856778925" />
+    <state width="1636" height="330" key="GridCell.Tab.1.right" timestamp="1581856778925">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="330" key="GridCell.Tab.1.right/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856778925" />
+    <state x="2261" y="135" key="SettingsEditor" timestamp="1581856516635">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2261" y="135" key="SettingsEditor/0.0.1920.1018/1920.0.1680.1010@1920.0.1680.1010" timestamp="1581856516635" />
+    <state x="623" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1581768483572">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="623" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1581768483572" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
