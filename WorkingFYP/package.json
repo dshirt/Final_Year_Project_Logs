@@ -1,0 +1,32 @@
+{
+  "name": "workingfyp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "ajax": "0.0.4",
+    "comment-json": "^3.0.2",
+    "cookie-parser": "^1.4.4",
+    "debug": "^2.6.9",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.1.0",
+    "fast-csv": "^4.1.1",
+    "hbs": "^4.1.0",
+    "http": "0.0.0",
+    "http-errors": "^1.6.3",
+    "json-parser": "^3.1.2",
+    "json2csv": "^4.5.4",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "John Lawless",
+  "license": "ISC",
+  "description": "FYP Fleet management web app"
+}

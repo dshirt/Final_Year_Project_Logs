@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84c9f35d-7fb8-4be7-a53d-5dcf9176c167" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YQl0cMmSemUvmkaY9kYRUXWBgK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editorconfig.notification" value="lf;" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Final_Year_Project_Logs/ProjectTest/views" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\ProjectTest\views" />
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\ProjectTest\views\layouts" />
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\Final_Year_Project_Logs\ProjectTest\views" />
+      <recent name="C:\Users\john\OneDrive - GMIT\FinalYearProject2020\ProjectTest\public" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84c9f35d-7fb8-4be7-a53d-5dcf9176c167" name="Default Changelist" comment="" />
+      <created>1582882476289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582882476289</updated>
+      <workItem from="1582882480030" duration="3209000" />
+      <workItem from="1582906617628" duration="1423000" />
+      <workItem from="1582911010439" duration="4683000" />
+      <workItem from="1582971652385" duration="828000" />
+      <workItem from="1582980530563" duration="2352000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583007220718">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="690" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1583007220718" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1582994690448">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1582994690448" />
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom" timestamp="1583013707303">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1583013707303" />
+    <state width="1876" height="269" key="GridCell.Tab.0.center" timestamp="1583013707303">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.center/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1583013707303" />
+    <state width="1876" height="269" key="GridCell.Tab.0.left" timestamp="1583013707303">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.left/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1583013707303" />
+    <state width="1876" height="269" key="GridCell.Tab.0.right" timestamp="1583013707303">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state width="1876" height="269" key="GridCell.Tab.0.right/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1583013707303" />
+    <state x="342" y="232" key="new project wizard" timestamp="1582980580758">
+      <screen x="0" y="0" width="1920" height="1018" />
+    </state>
+    <state x="342" y="232" key="new project wizard/0.0.1920.1018/1920.0.1680.1010@0.0.1920.1018" timestamp="1582980580758" />
+  </component>
+</project>
