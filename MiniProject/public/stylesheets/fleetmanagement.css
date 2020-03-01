@@ -61,10 +61,10 @@ h2{
     margin-bottom: 20px;
 }
 
-.loginbox input[type="text"], input[type="password"],input[type="username"]{
+.loginbox input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
-    background: antiquewhite;
+    background: transparent;
     outline: none;
     height: 40px;
     color: #8b4513;

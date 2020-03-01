@@ -1,8 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect( 'localhost:27017/scriptDb');
-
+mongoose.connect('localhost:27017/scriptDb');
 var Schema = mongoose.Schema;
 
 var scriptSchema = new Schema({
@@ -10,21 +9,10 @@ var scriptSchema = new Schema({
   Script: String
 });
 
-var theScript = mongoose.model('thescript', scriptSchema);
+var theScript = mongoose.model('script', scriptSchema);
 
 var theScriptOutput = "";
-// Create an instance of model SomeModel
-var newScript = new theScript({ name: 'awesome' });
-// Save the new model instance, passing a callback
-newScript.save(function (err) {
-  if (err) return handleError(err);
-  // saved!
-});
-// Save the new model instance, passing a callback
-awesome_instance.save(function (err) {
-  if (err) return handleError(err);
-  // saved!
-});
+
 router.get('/', function(req, res, next) {
         res.render('index', {title: "Fleet Management"});
 });
@@ -36,7 +24,7 @@ router.get('/', function(req, res, next) {
       });
 });*/
 
-router.post('/post-login', function(req, res, next) {
+router.post('/runScript', function(req, res, next) {
   theScriptOutput += "It worked again. ";
   res.redirect('/');
 });

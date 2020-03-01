@@ -5,7 +5,11 @@ var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var app = express();
 var port = process.env.PORT || 3000;
-
+const mongoose = require("mongoose");
+const MongoClient = require('mongodb').MongoClient;
+const url = "mongodb+srv://Admin:Dshirt49300770@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority";
+const dataBaseName = 'first-test';
+const dbCollection = 'users';
 var passport = require('passport');
 var flash = require('connect-flash');
 
@@ -18,6 +22,9 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.set('view engine', 'ejs');
+
+mongoose.connect(CONNECTION_URL, {useNewUrlParser: true},
+    ()=> console.log("connected to database"));
 
 app.use(session({
  secret: 'justasecret',
