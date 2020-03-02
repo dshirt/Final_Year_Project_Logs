@@ -1,96 +1,33 @@
 var express = require('express');
 var router = express.Router();
-var ajax = require('ajax');
+var bcrypt = require('bcrypt');
 var MongoClient = require('mongodb').MongoClient;
-var mongoose = require("mongoose");
-var assert = require('assert');
-// replace the uri string with your connection string.
 const uri = "mongodb+srv://dshirt:test1234@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority";
-const db = "first-test";
-const http = require("http");
 var fs = require("fs");
 var database, collection;
 var resultArray = [];
-const fastcsv = require("fast-csv");
 const Json2csvParser = require("json2csv").Parser;
-
+var BCRYPT_SALT_ROUNDS = 12;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 router.get('/', function(req, res, next) {
-  res.render('index', {title: "Fleet Management"});
+  res.render('index', {title: "TripleV"});
 });
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 router.get('/login', function(req, res, next) {
-  res.render('login.html', {title: "Fleet Management"});
+  res.render('login.html', {title: "Log in"});
 });
+
+router.get('/registerDriver', function(req, res, next) {
+  res.redirect('pages/registerDriver.html');
+});
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-router.post('/post-login', function(req, res, next) {
-    var item = {
-      username: req.body.username,
-      password: req.body.password
-    };
-
-    console.log("XXXXXXXXXXXXXXXX");
-
-    const dbName = 'second-test';
-
-      // Use connect method to connect to the Server
-      MongoClient.connect(uri, { useUnifiedTopology: true } , (error, client) => {
-        if (error) {
-          throw error;
-        }
-        database = client.db(dbName);
-        collection = database.collection("user");
-        console.log("Connected to `" + dbName + "`!");
-
-        //TODO Find out how to get this into a java script so I can pull from mongodb through webpage
-
-        database.collection('user', function (err, collection) {
-
-          collection.find().toArray((err, items) => {
-            if (err) throw err;
-            console.log(items);
-          });
-        });
-  });
-
-  res.redirect('/');
-});
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-/*router.get('/get-login', function(req, res, next){
-
-  const dbName = 'second-test';
-
-  // Use connect method to connect to the Server
-  MongoClient.connect(uri, { useUnifiedTopology: true } , (error, client) => {
-    if (error) {
-      throw error;
-    }
-    database = client.db(dbName);
-    collection = database.collection("user");
-    console.log("Connected to `" + dbName + "`!");
-
-    database.collection('user', function (err, collection) {
-
-      collection.find().toArray((err, resultArray) => {
-        if (err) throw err;
-        console.log(resultArray);
-      });
-    });
-  });
-
-  res.redirect('/');
-
-});*/
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 router.post('/post-signup', function(req, res, next) {
 var user = {
@@ -110,38 +47,106 @@ var user = {
     database.collection('user', function (err, collection) {
       collection.insertOne(user);
       console.log(user);
+      writeToCsv();
     });
   });
 
-  res.redirect('/');
+  res.redirect('/pages/fleettable.html');
 });
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-router.get('/get-login', function(req, res, next) {
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+router.post('/post-registerAdmin', function(req, res, next) {
+
+     var username= req.body.username;
+    var password= req.body.password;
   const dbName = 'second-test';
-  MongoClient.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true}, (error, client) => {
+  MongoClient.connect(uri, { useUnifiedTopology: true } , (error, client) => {
     if (error) {
       throw error;
     }
     database = client.db(dbName);
     collection = database.collection("user");
     console.log("Connected to `" + dbName + "`!");
-    collection.find().toArray((err, resultArray) => {
-      if (err) throw err;
-      console.log(resultArray);
-      const json2csvParser = new Json2csvParser({header: true});
-      const csvData = json2csvParser.parse(resultArray);
-
-      fs.writeFile("tripleVData.csv", csvData, function (error) {
-        if (error) throw error;
-        console.log("Write to tripleVData.csv successfully!");
-      });
+    database.collection('user', function (err, collection) {
+      bcrypt.hash(password, BCRYPT_SALT_ROUNDS)
+          .then(function(hashedPassword) {
+            var item = {
+              username: username,
+              password: hashedPassword
+            };
+            return collection.insertOne(item);
+          })
+          .then(function() {
+            res.send();
+          })
+          .catch(function(error){
+            console.log("Error saving user: ");
+            console.log(error);
+            next();
+          });
+      console.log(username);
     });
   });
-  res.render('fleettable');
+  res.redirect('/');
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+router.post('/post-login', function(req, res, next) {
 
+  var username= req.body.username;
+  var password= req.body.password;
+  const dbName = 'second-test';
+  MongoClient.connect(uri, { useUnifiedTopology: true } , (error, client) => {
+    if (error) {
+      throw error;
+    }
+    console.log(dbName);
+    database = client.db(dbName);
+    collection = database.collection("user");
+    console.log("Connected to `" + dbName + "`!");
+    database.collection('user', function (err, collection) {
+      collection.findOne({username})
+          .then(function(user) {
+            console.log(user);
+            return bcrypt.compare(password, user.password);
+          })
+          .then(function(samePassword) {
+            if(samePassword) {
+              //res.status(403).send();
+             writeToCsv();
+              res.redirect('/pages/fleettable.html');
+            }
+              res.send();
 
-module.exports = router;
+          })
+          .catch(function(error){
+            console.log("Error authenticating user: ");
+            console.log(error);
+            next();
+          });
+    });
+    });
+  });
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function writeToCsv(){
+  collection.find().toArray((err, resultArray) => {
+    if (err) throw err;
+    console.log(resultArray);
+    const json2csvParser = new Json2csvParser({header: true});
+    const csvData = json2csvParser.parse(resultArray);
+
+    fs.writeFile("C:\\Users\\john\\OneDrive - GMIT\\FinalYearProject2020\\Final_Year_Project_Logs\\WorkingFYP\\public\\pages\\tripleVData.csv", csvData, function (error) {
+      if (error) throw error;
+      console.log("Write to tripleVData.csv successfully!");
+    });
+  });
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  module.exports = router;

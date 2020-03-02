@@ -35,7 +35,7 @@ db.users.deleteOne({name: 'Paddy'})
 
 Look into Mongo Compass
 
-mongodb+srv://Admin:<Dshirt49300770>@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority
+		
 
 research
 
@@ -46,6 +46,24 @@ https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to
 https://www.lifewire.com/file-extensions-and-mime-types-3469109
 
 https://www.youtube.com/watch?v=QE8lgVErCCI
-https://www.youtube.com/watch?v=7Uekm0IgzQ4
+https://www.youtube.com/watch?v=7Uekm0IgzQ4	
 
 https://www.tutorialsteacher.com/nodejs/access-mongodb-in-nodejs
+
+https://www.guru99.com/node-js-mongodb.html
+
+http://mongodb.github.io/node-mongodb-native/3.0/quick-start/quick-start/
+
+http://www.passportjs.org/docs/username-password/
+
+https://www.mongodb.com/blog/post/password-authentication-with-mongoose-part-1
+
+https://medium.com/@bhanushali.mahesh3/building-a-restful-crud-api-with-node-js-jwt-bcrypt-express-and-mongodb-4e1fb20b7f3d
+
+https://mongoosejs.com/docs/guide.html
+
+https://www.youtube.com/watch?v=rOfT83_eKWk
+
+https://www.youtube.com/watch?v=ZKwrOXl5TDI
+
+https://www.youtube.com/watch?v=vjf774RKrLc          <StartAllOverAgain>

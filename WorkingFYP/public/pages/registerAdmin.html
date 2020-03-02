@@ -2,8 +2,8 @@
 <!doctype html>
 <html>
 <head>
-    <title>Node Authentication</title>
-    <link rel="stylesheet" href="fleetmanagement.css" type="text/css">
+    <title>Signup Authentication</title>
+    <link rel="stylesheet" href="/stylesheets/fleetmanagement.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
     <style>
@@ -17,7 +17,7 @@
 
         <h1 style="color: aqua"><span class="fa fa-sign-in"></span> Register</h1>
         <!-- LOGIN FORM -->
-        <form action="/post-signup" method="post">
+        <form action="/post-registerAdmin" method="post">
             <div class="form-group">
                 <label style="color: aqua">Username</label>
                 <input type="username" class="form-control" name="username" >
@@ -32,11 +32,10 @@
 
         <hr>
 
-        <p style="color: antiquewhite">Already have an account? <a href="/login">Login</a></p>
+        <p style="color: antiquewhite">Already have an account? <a href="/pages/login.html">Login</a></p>
         <p style="color: antiquewhite">Or go <a href="/">home</a>.</p>
 
     </div>
-
 </div>
 </body>
 </html>
