@@ -5,16 +5,16 @@ const MongoClient = require("mongodb").MongoClient;
 const ObjectId = require("mongodb").ObjectID;
 const http = require("http");
 var fs = require("fs");
-const CONNECTION_URL = "mongodb+srv://Admin:Dshirt49300770@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://dshirt:test1234@fleetmanager-xixqp.mongodb.net/test?retryWrites=true&w=majority";
 const DATABASE_NAME = "first-test";
 var path = require('path')
 var request = require("request");
 var database, collection;
 
-const app = express();
+const app1 = express();
 
-app.use(BodyParser.json());
-app.use(BodyParser.urlencoded({ extended: true }));
+app1.use(BodyParser.json());
+app1.use(BodyParser.urlencoded({ extended: true }));
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true},
     ()=> console.log("connected to database"));

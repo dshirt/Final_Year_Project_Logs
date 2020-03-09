@@ -1,3 +1,4 @@
+var passport =require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 
 
@@ -17,14 +18,14 @@ module.exports = function(passport) {
     });
 
 
-    passport.use('local-signup', new LocalStrategy({
-            usernameField: 'email',
+    passport.use(new LocalStrategy({
+            usernameField: 'username',
             passwordField: 'password',
             passReqToCallback: true
         },
-        function(req, email, password, done){
+        function(req, username, password, done){
             process.nextTick(function(){
-                User.findOne({'local.username': email}, function(err, user){
+                User.findOne({'local.username': username}, function(err, user){
                     if(err)
                         return done(err);
                     if(user){
@@ -45,14 +46,14 @@ module.exports = function(passport) {
             });
         }));
 
-    passport.use('local-login', new LocalStrategy({
-            usernameField: 'email',
+    passport.use(new LocalStrategy({
+            usernameField: 'username',
             passwordField: 'password',
             passReqToCallback: true
         },
-        function(req, email, password, done){
+        function(req, username, password, done){
             process.nextTick(function(){
-                User.findOne({ 'local.username': email}, function(err, user){
+                User.findOne({ 'local.username': username}, function(err, user){
                     if(err)
                         return done(err);
                     if(!user)

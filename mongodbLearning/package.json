@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.8",
+    "content-security-policy": "^0.3.3",
     "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "mongodb": "^3.5.3",
-    "mongoose": "^5.9.1"
+    "mongoose": "^5.9.1",
+    "passport": "^0.4.1"
   }
 }
