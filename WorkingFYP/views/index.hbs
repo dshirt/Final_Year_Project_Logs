@@ -16,9 +16,13 @@
     <div class="jumbotron text-center" style="background-color: cadetblue; border-radius: 40px;" >
         <h1><span class="fa fa-lock"font face="Times New Roman" font size="12" color="blue"></span> TripleV</h1>
 
-        <p>Login or Register</p>
-        <a href="/pages/login.html" class="btn btn-success" style=" width : 150px"><span class="fa fa-user"></span> Login </a>
-        <a href="/pages/registerAdmin.html" class="btn btn-success" style=" width : 150px"><span class="fa fa-user"></span> Register </a>
+        <form action="/post-unlockcode" method="post">
+            <div  class="form-group">
+                <label style="color: aqua">UnlockCode<input  type="password" class="form-control" name="password" ></label>
+            </div>
+            <input type="submit" class="btn btn-success btn-lg" value="Enter TripleV">
+        </form>
+
     </div>
 </div>
 </body>
