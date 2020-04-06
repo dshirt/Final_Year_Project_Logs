@@ -15,6 +15,10 @@ router.get('/', function(req, res, next) {
   res.render('index', {title: "TripleV"});
 });
 
+router.get('/logout', function(req, res, next) {
+    res.render('index', {title: "TripleV"});
+});
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -187,6 +191,35 @@ router.post('/post-login', function(req, res, next) {
     });
 });
 });
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+router.post('/updatedata', function(req, res, next) {
+    const dbName = 'facerecog';
+    MongoClient.connect(uri, { useUnifiedTopology: true } , (error, client) => {
+        if (error) {
+            throw error;
+        }
+        console.log(dbName);
+        database = client.db(dbName);
+        collection = database.collection("users");
+        console.log("Connected to `" + dbName + "`!");
+        database.collection('users', function (err, collection) {
+            writeToJSON();
+            setTimeout(function () {
+                res.redirect('/pages/fleettable.html')
+            }, 2000);
+        });
+    });
+
+});
+
+
+
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

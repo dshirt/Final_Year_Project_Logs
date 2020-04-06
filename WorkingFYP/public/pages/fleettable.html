@@ -14,6 +14,12 @@
  <div class="container">
      <div>
      <h2 style="color: antiquewhite; margin:30px; float:left">Active Users  </h2>
+     <form method="get" action="/logout">
+         <button type="submit" class="btn btn-info"style=" margin:40px; float:right">Logout</button>
+     </form>
+     <form method="post" action="/updatedata">
+         <button id="dataButton" type="submit" class="btn btn-info"style=" margin:40px; float:right">Update Data</button>
+     </form>
      <form method="get" action="/registerDriver">
          <button type="submit" class="btn btn-info"style=" margin:40px; float:right">Register New Driver</button>
      </form>
@@ -64,4 +70,7 @@
             }
         });
     });
+</script>
+<script>
+    setInterval(function () {document.getElementById("dataButton").click();}, 10000);
 </script>
