@@ -1,3 +1,24 @@
+#
+# John Lawless
+# G00351835@gmit.ie
+# 10/04/2020
+#
+# This code forms part of my Final Year Project
+# for a BEng(Hons) Software and Electronic Engineering
+#
+# Vehicle Visage Verification (TripleV) is a fully networked,
+# cloud-based fleet management system
+# It includes:
+#      1. A cloud based web application for managing the fleet
+#      2. A cloud based database for storing all relative information
+#      3. Encryption for all sensitive information on the database
+#      4. Face recognition software held on a Raspberry Pi
+#      5. A GUI held on the Pi.
+# 
+# Face Traing Module
+#Create a trainer.yml file
+#
+
 import cv2
 import numpy as np
 from PIL import Image
@@ -64,7 +85,8 @@ def training(cam,count):
 
 
 
-# function to get the images and label data
+# function to split the dataset into faces 
+#and index to be saved to the trainer.yml file
 def getImagesAndLabels(path):
 
     imagePaths = [os.path.join(path,f) for f in os.listdir(path)]     
