@@ -1,3 +1,25 @@
+<!--
+* John Lawless
+* G00351835@gmit.ie
+* 10/04/2020
+*
+* This code forms part of my Final Year Project
+* for a BEng(Hons) Software and Electronic Engineering
+*
+* Vehicle Visage Verification (TripleV) is a fully networked,
+* cloud-based fleet management system
+* It includes:
+*      1. A cloud based web application for managing the fleet
+*      2. A cloud based database for storing all relative information
+*      3. Encryption for all sensitive information on the database
+*      4. Face recognition software held on a Raspberry Pi
+*      5. A GUI held on the Pi.
+
+This is the fleet table page that is updated automatically
+every 10 seconds, when open
+The table is dynamically produced
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,13 +37,14 @@
      <div>
      <h2 style="color: antiquewhite; margin:30px; float:left">Active Users  </h2>
      <form method="get" action="/logout">
-         <button type="submit" class="btn btn-info"style=" margin:40px; float:right">Logout</button>
-     </form>
-     <form method="post" action="/updatedata">
-         <button id="dataButton" type="submit" class="btn btn-info"style=" margin:40px; float:right">Update Data</button>
+         <button type="submit" class="btn btn-info"style=" margin:40px; float:right; width:160px">Logout</button>
      </form>
      <form method="get" action="/registerDriver">
          <button type="submit" class="btn btn-info"style=" margin:40px; float:right">Register New Driver</button>
+     </form>
+         <!-- This is an invisible button that is automatically clicked every 10 seconds and calls updatedata in route/index.js-->
+     <form method="post" action="/updatedata">
+         <button id="dataButton" type="submit" class="btn btn-info"style=" margin:40px; float:right; visibility:hidden;">Update Data</button>
      </form>
      </div>
      <table   class="table" style="background-color: lightgoldenrodyellow">
@@ -41,13 +64,17 @@
 
 
 <script>
+    /*This function dynamically produces the table when the page is loaded
+    * it creates an object from the json key/value data
+    * allowing the calling and display of only relevant information*/
     $(window).on('load', function () {
         $.ajax({
             url:"tripleVData.json",
             dataType:"text",
             success: function(data)
             {
-                window.obj = JSON.parse(data);  //setting the variable to window makes in global to all JavaScript functions
+                //setting the variable to window makes in global to all JavaScript functions
+                window.obj = JSON.parse(data);
                 var table_data = '<table class="table table-bordered table-striped ">';
                 console.log(obj.length);
                 for(var count = 1; count<obj.length; count++) {
@@ -72,5 +99,7 @@
     });
 </script>
 <script>
+    //This function get the invisible button by its id and auto clicks it every 10 seconds
+    //Constantly updating the page
     setInterval(function () {document.getElementById("dataButton").click();}, 10000);
 </script>

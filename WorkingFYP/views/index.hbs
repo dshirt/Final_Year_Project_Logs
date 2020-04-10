@@ -1,4 +1,22 @@
-
+<!--
+* John Lawless
+* G00351835@gmit.ie
+* 10/04/2020
+*
+* This code forms part of my Final Year Project
+* for a BEng(Hons) Software and Electronic Engineering
+*
+* Vehicle Visage Verification (TripleV) is a fully networked,
+* cloud-based fleet management system
+* It includes:
+*      1. A cloud based web application for managing the fleet
+*      2. A cloud based database for storing all relative information
+*      3. Encryption for all sensitive information on the database
+*      4. Face recognition software held on a Raspberry Pi
+*      5. A GUI held on the Pi.
+* This is the landing page for the web app.
+* From here a fleet manager has to log in using the encrypted access code
+* -->
 <!doctype html>
 <html>
 <head>
@@ -15,7 +33,7 @@
 <div class="container">
     <div class="jumbotron text-center" style="background-color: cadetblue; border-radius: 40px;" >
         <h1><span class="fa fa-lock"font face="Times New Roman" font size="12" color="blue"></span> TripleV</h1>
-
+        <!-- call the post-unlockcode in router/index.js -->
         <form action="/post-unlockcode" method="post">
             <div  class="form-group">
                 <label style="color: aqua">UnlockCode<input  type="password" class="form-control" name="password" ></label>
